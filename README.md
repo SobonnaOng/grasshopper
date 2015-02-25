@@ -1,0 +1,2 @@
+# grasshopper
+foundational notes
