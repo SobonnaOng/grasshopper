@@ -8,6 +8,12 @@ rm            # delete
 chmod         # change permissions
 mkdir         # make directory
 netstat       # network status
+ping          # test network connection
+traceroute    # trace routes to remote host
+nslookup      # query DNS
+kill          # kill process
+ps            # show process status
+top           # show information about processes
 cp            # copy file
 mv            # move file
 file          # classify file 
