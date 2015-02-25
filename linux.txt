@@ -1,0 +1,21 @@
+cd            # change directory
+ls            # list contents of directory
+pwd           # show location (absolute path)
+sleep         # delay next command
+ifconfig      # configure nic
+find          # find file
+rm            # delete
+chmod         # change permissions
+mkdir         # make directory
+netstat       # network status
+cp            # copy file
+mv            # move file
+file          # classify file 
+head          # view beginning of file
+tail          # view end of a file
+cat           # read files sequentially
+more          # display files a page at a time
+less          # opposite of more
+whatis        # queries list for description of command
+echo          # writes to standard out
+touch         # change access and mod times for file or creats file if it does not exist
