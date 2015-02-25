@@ -1,0 +1,14 @@
+dir       # list files and folders 
+cd        # change directory
+cmd       # new shell
+copy      # copy files to another location
+mv        # copy in-use files
+echo      # display message to screen
+erase     # like unix rm
+find      # search for string in a file
+netstat   # display network stats
+ping      # test network connection
+tracert   # trace the routes to remote host
+nslookup  # look up nameserver
+nbtstat   # netbios stats over TCP/IP
+kill      # kill a process
