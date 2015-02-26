@@ -1,27 +1,42 @@
-cd            # change directory
-ls            # list contents of directory
-pwd           # show location (absolute path)
-sleep         # delay next command
-ifconfig      # configure nic
-find          # find file
-rm            # delete
-chmod         # change permissions
-mkdir         # make directory
-netstat       # network status
-ping          # test network connection
-traceroute    # trace routes to remote host
-nslookup      # query DNS
-kill          # kill process
-ps            # show process status
-top           # show information about processes
-cp            # copy file
-mv            # move file
-file          # classify file 
-head          # view beginning of file
-tail          # view end of a file
-cat           # read files sequentially
-more          # display files a page at a time
-less          # opposite of more
-whatis        # queries list for description of command
-echo          # writes to standard out
-touch         # change access and mod times for file or creats file if it does not exist
+Commands and Notes related to Linux/UNIX Files
+      cat           # read files sequentially
+      chmod         # change file modes or acls
+      chown         # change file owner and group
+      cp            # copy file
+      file          # classify file 
+      head          # view beginning of file
+      less          # opposite of more
+      ls            # list contents of directory
+      more          # display files a page at a time
+      mv            # move file
+      pwd           # show location (absolute path)
+      tail          # view end of a file
+      tar           # create and manipulate streaming archive files # localsys} tar cvf - dirname| ssh username@remotesys "(cd remotedir; tar xvf -)"
+      touch         # change access and mod times for file or creats file if it does not exist
+Commands and Notes related to Linux/UNIX Folders
+      cd            # change directory
+      sleep         # delay next command
+      find          # find file
+      ln            # creates a new directory entry (linked file) which has the same modes as the original file
+      rm            # delete
+Commands and Notes related to Linux/UNIX Networking
+      ifconfig      # configure nic
+      mkdir         # make directory
+      netstat       # network status
+      ping          # test network connection
+      traceroute    # trace routes to remote host
+      nslookup      # query DNS
+      tcpdump       # Prints out content of packets on NIC
+Commands and Notes related to Linux/UNIX Users
+      passwd        # modify a user's password
+      pwconv        # The pwconv command  creates  and  updates  /etc/shadow  with information from /etc/passwd
+Commands and Notes related to Linux/UNIX System
+      crontab       # used to install, deinstall or list tables used to drive the cron daemon in Vixie Cron (see launchd)
+      du            # disk usage stats
+      whatis        # queries list for description of command
+      echo          # writes to standard out
+      finger        # display information about system users
+      kill          # kill process
+      ps            # show process status
+      top           # show information about processes
+      uname         # print OS name
