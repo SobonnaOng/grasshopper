@@ -1,2 +1,3 @@
 http://www.irongeek.com/i.php?page=videos/web-pen-testing-workshop    # web app hacking videos
-> http://niiconsulting.com/checkmate/2014/01/from-sql-injection-to-0wnage-using-sqlmap/     # SQL injection tutorial
+http://niiconsulting.com/checkmate/2014/01/from-sql-injection-to-0wnage-using-sqlmap/     # SQL injection tutorial
+https://www.owasp.org/index.php/Cheat_Sheets  # OWASP Reference Sheets
