@@ -15,7 +15,7 @@ Commands and Notes related to Linux/UNIX Files
       touch         # change access and mod times for file or creats file if it does not exist
 Commands and Notes related to Linux/UNIX Folders
       cd            # change directory
-      sleep         # delay next command
+
       find          # find file
       ln            # creates a new directory entry (linked file) which has the same modes as the original file
       rm            # delete
@@ -40,3 +40,5 @@ Commands and Notes related to Linux/UNIX System
       ps            # show process status
       top           # show information about processes
       uname         # print OS name
+Misc Linux/UNIX commands 
+      sleep         # delay next command
