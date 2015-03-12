@@ -42,3 +42,7 @@ Commands and Notes related to Linux/UNIX System
       uname         # print OS name
 Misc Linux/UNIX commands 
       sleep         # delay next command
+Linux/UNIX command combinations for specific tasks
+      cat file | awk ‘{print $17}’ | cut -d ‘:’ -f1 | sort -u > list   # (From Lee Baird) Parses the example txt dump, gives a unique list of IPs that are sorted correctly.
+            wc -l list                                                 # totals the number of IP addresses from the output above.
+      grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" tmp\ copy.txt | sort -u | wc -l # produced same result as above. 
